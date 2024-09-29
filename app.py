@@ -49,7 +49,7 @@ if(submitButton):
         
         sentence_scores.sort(key=lambda x: x[1], reverse=True)
         
-        top_sentences_idx = [idx for idx, score in sentence_scores[:2]]
+        top_sentences_idx = [idx for idx, score in sentence_scores[:4]]
         
         top_sentences_idx.sort()
         
