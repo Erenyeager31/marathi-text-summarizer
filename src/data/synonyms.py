@@ -112,19 +112,3 @@ synonym_dict = {
     'सरकारी': 'प्रशासकीय',
     'कलाकार': 'चित्रकार'
 }
-
-def replace_synonyms(text: str):
-    words = text.split()
-    replaced_words = {}
-    
-    # Replace words with synonyms and track replaced words
-    replaced_text = []
-    for word in words:
-        synonym = synonym_dict.get(word)
-        if synonym:
-            replaced_words[word] = synonym
-            replaced_text.append(synonym)
-        else:
-            replaced_text.append(word)
-    
-    return ' '.join(replaced_text), replaced_words
