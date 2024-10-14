@@ -110,7 +110,36 @@ synonym_dict = {
     'लोककला': 'जनकला',
     'यशस्वी': 'सफल',
     'सरकारी': 'प्रशासकीय',
-    'कलाकार': 'चित्रकार'
+    'कलाकार': 'चित्रकार',
+       "सौर": "सूर्य",          # Solar: Sun
+    "ऊर्जा": "शक्ती",        # Energy: Power
+    "स्वच्छ": "शुद्ध",      # Clean: Pure
+    "नूतनीकरणीय": "पुनर्जन्मित",  # Renewable: Reborn
+    "ग्रह": "पृथ्वी",        # Planet: Earth
+    "साठवलेली": "संचित",   # Stored: Accumulated
+    "किरण": "प्रकाश",       # Ray: Light
+    "मिळवली": "प्राप्त",     # Obtained: Received
+    "वीज": "विद्युत",        # Electricity: Electric
+    "उपयोग": "वापर",        # Use: Utilization
+    "गोळा": "जमा",          # Collect: Gather
+    "खर्च": "किंमत",        # Cost: Price
+    "घरगुती": "कुटुंबीय",   # Domestic: Family
+    "औद्योगिक": "उद्योगिक",  # Industrial: Industrial
+    "पर्यावरण": "निसर्ग",    # Environment: Nature
+    "हानि": "नुकसान",      # Loss: Damage
+    "उत्तम": "श्रेष्ठ",      # Best: Superior
+    "प्रकल्प": "योजना",      # Project: Plan
+    "सक्रियपणे": "सक्रिय",    # Actively: Actively
+    "प्रोत्साहन": "प्रेरणा",  # Encouragement: Inspiration
+    "किंमत": "मूल्य",       # Price: Value
+    "उपकरण": "साधन",       # Equipment: Tool
+    "संपूर्ण": "पूर्ण",      # Complete: Whole
+    "व्यापार": "व्यवसाय",    # Business: Commerce
+    "प्रभावी": "कार्यक्षम",  # Effective: Efficient
+    "दीर्घकालीन": "सतत",     # Long-term: Continuous
+    "संरक्षण": "सुरक्षा",    # Protection: Security
+    "भाग": "अंश",           # Part: Portion
+    "महत्त्वाचा": "महान"
 }
 
 def replace_synonyms(text: str):
