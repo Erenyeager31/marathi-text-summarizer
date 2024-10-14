@@ -174,7 +174,7 @@ synonym_dict = {
     'कलाकार': 'चित्रकार'
 }
 
-def summarize_text(paragraph):
+def summarize_text(paragraph,num_sentences):
     # Preprocess and tokenize the input text
     processed_text = preprocess(paragraph.title())
     sentences = [' '.join(sentence) for sentence in processed_text]
@@ -190,7 +190,7 @@ def summarize_text(paragraph):
     sentence_scores.sort(key=lambda x: x[1], reverse=True)
     
     # Select top 4 sentences for summarization
-    top_sentences_idx = [idx for idx, score in sentence_scores[:4]]
+    top_sentences_idx = [idx for idx, score in sentence_scores[:num_sentences]]
     top_sentences_idx.sort()
     
     # Create the summarized text
